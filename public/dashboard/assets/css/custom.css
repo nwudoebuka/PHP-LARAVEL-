@@ -1,0 +1,90 @@
+/* Write your custom CSS here */
+#cont{
+    /*background-color: darkgreen;*/
+    background-image: url("../images/studdash.jpg");
+    min-height: 25vh;
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    font-family: 'Poppins', sans-serif;
+}
+
+#cont button{
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+
+#schlogo img{
+    /*background-image: url("../images/TOPS LOGO.JPG");*/
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 50px;
+    /*background: transparent;*/
+}
+
+#new row{
+    margin-top: 15%;
+}
+
+.img{
+    background: url("../images/TOPS LOGO.JPG");
+    height: 40px;
+    width: 40px;
+}
+
+#pp{
+    /*float: right;*/
+    padding-left: 70px;
+    
+}
+
+#frstbtn{
+    margin-left: 10px;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #021d03;;
+    /*align-content: center;*/
+    justify-content: space-between;
+    text-align: center;
+    color: #bdbdbd;
+    padding: 30px 40px;
+
+}
+
+#cont .btn {
+    background-color: #0d6b11;
+}
+.panel{
+    margin-top: 20px;
+}
+.panel-body{
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#cont h4{
+    margin-top: 60px;
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+    margin-left: 30px;
+
+}
+
+@media screen and (max-width: 768px){
+    #cont button{
+        margin-top: 7px;
+        margin-left: 20px;
+        color: #FFFFFF;
+    }
+
+    #schlogo img{
+        /*background-image: url("../images/TOPS LOGO.JPG");*/
+        display: none;
+    }
+}
